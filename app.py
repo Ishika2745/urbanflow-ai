@@ -14,6 +14,7 @@ from streamlit_folium import st_folium
 
 st.set_page_config(
     page_title="URBAN FLOW AI | Mumbai Transit Intelligence",
+    page_icon="assets/favicon.png",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
@@ -57,10 +58,14 @@ img_ai = get_svg_base64("assets/ai_optimization.svg")
 st.markdown(
     """
     <style>
+    header, [data-testid="stHeader"], [data-testid="stToolbar"],
     section[data-testid="stSidebar"],
     [data-testid="collapsedControl"],
-    button[kind="header"] {
+    button[kind="header"],
+    #MainMenu, footer, .viewerBadge_container__1QSob,
+    [data-testid="manage-app-button"] {
         display: none !important;
+        visibility: hidden !important;
     }
     html, body, [class*="css"] {
         font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
