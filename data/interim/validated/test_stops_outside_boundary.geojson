@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "test_stops_outside_boundary",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "stop_id": "S2", "stop_name": "Pune Stop" }, "geometry": { "type": "Point", "coordinates": [ 73.85, 18.52 ] } }
+]
+}

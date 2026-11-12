@@ -1,0 +1,4 @@
+Algorithm,Fitness Score,Population Covered,Coverage %,Additional Benefiting Pop,Avg Walking Dist (m),DTII Reduction %,Gini Improvement %,Cost (₹ Lakhs),Runtime (sec),Feasibility,Stops Selected
+Greedy Maximum Coverage,0.0,13240304,100.0,0,228.3,0.0,0.0,265.0,0.0371,Verified Feasible,15
+MCLP (OR-Tools Exact MILP),6.639,13240304,100.0,0,188.7,0.06,22.07,75.0,0.0106,Verified Feasible,5
+P-Median (OR-Tools Exact MILP),4.962,13240304,100.0,0,188.7,0.05,16.49,225.0,0.0531,Verified Feasible,15

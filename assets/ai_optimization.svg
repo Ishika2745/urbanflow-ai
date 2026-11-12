@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-ai" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#4C1D95"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" rx="12" fill="url(#bg-ai)"/>
+  <line x1="80" y1="70" x2="160" y2="130" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  <line x1="160" y1="130" x2="240" y2="80" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  <line x1="240" y1="80" x2="320" y2="150" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  <line x1="160" y1="130" x2="210" y2="190" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  <line x1="210" y1="190" x2="320" y2="150" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  <circle cx="160" cy="130" r="20" fill="#10B981" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="240" cy="80" r="16" fill="#38BDF8" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="80" cy="70" r="14" fill="#F59E0B" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="320" cy="150" r="20" fill="#10B981" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="210" cy="190" r="14" fill="#F43F5E" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M154 130 L158 134 L167 125" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M314 150 L318 154 L327 145" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text x="200" y="32" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#DDD6FE" text-anchor="middle">NATURE-INSPIRED GENETIC &amp; PSO OPTIMIZATION</text>
+</svg>

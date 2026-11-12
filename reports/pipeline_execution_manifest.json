@@ -1,0 +1,66 @@
+{
+  "execution_id": "pipeline_run_1794264895",
+  "timestamp": "2026-11-10T04:24:55.751540",
+  "configuration": {
+    "budget_stops": 15,
+    "service_radius_m": 800.0,
+    "seeds": [
+      42,
+      101,
+      777,
+      2024,
+      9999
+    ],
+    "city": "Greater Mumbai",
+    "crs": "EPSG:32643"
+  },
+  "stages": {
+    "preprocessing": {
+      "status": "SUCCESS",
+      "elapsed_sec": 20.54,
+      "description": "Data Cleaning, EPSG:32643 Metric CRS, and Spatial Grid Generation"
+    },
+    "accessibility": {
+      "status": "SUCCESS",
+      "elapsed_sec": 5.81,
+      "description": "Multimodal Pedestrian Graph & Dijkstra Accessibility Scoring"
+    },
+    "demand": {
+      "status": "SUCCESS",
+      "elapsed_sec": 5.82,
+      "description": "Mobility Demand Intelligence, XGBoost Benchmarking & TreeSHAP"
+    },
+    "dtii": {
+      "status": "SUCCESS",
+      "elapsed_sec": 0.24,
+      "description": "Dynamic Transit Inequality Index (DTII) & Multi-Weight Sensitivity"
+    },
+    "transit_deserts": {
+      "status": "SUCCESS",
+      "elapsed_sec": 6.56,
+      "description": "Transit Desert Hotspots, Local Moran's I & Spatial Clustering"
+    },
+    "conventional_opt": {
+      "status": "SUCCESS",
+      "elapsed_sec": 1.69,
+      "description": "Candidate Stop Generation, Greedy, MCLP & P-Median Solvers"
+    },
+    "nature_opt": {
+      "status": "SUCCESS",
+      "elapsed_sec": 10.31,
+      "description": "Nature-Inspired Solvers (Equity-GA & RK-DPSO) Benchmarks"
+    },
+    "simulation": {
+      "status": "SUCCESS",
+      "elapsed_sec": 8.6,
+      "description": "Before-and-After Policy Impact Sandbox & Dynamic Catchment Recalculation"
+    },
+    "database": {
+      "status": "SUCCESS",
+      "elapsed_sec": 2.22,
+      "description": "SQLite Relational Database Population & Data Synchronization"
+    }
+  },
+  "total_runtime_sec": 61.79,
+  "overall_status": "SUCCESS"
+}

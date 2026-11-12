@@ -1,0 +1,72 @@
+[
+  {
+    "dataset_name": "Mumbai Wards KML",
+    "url": "https://data.opencity.in/dataset/60f27371-717e-40b6-8554-fdc7e6c10437/resource/0318c3e8-1530-4bf4-b29b-7281573dee8a/download/e7a671e2-1f71-4219-a83c-556334bc9021.kml",
+    "file_path": "raw\\boundaries\\mumbai_bmc_wards_map.kml",
+    "file_size_bytes": 644096,
+    "md5_checksum": "98c724f56a401bcfa588ed6a806eb7bd",
+    "download_time_sec": 0.66,
+    "status": "SUCCESS",
+    "timestamp": "2026-11-09T20:09:04Z"
+  },
+  {
+    "dataset_name": "BEST Bus Stops",
+    "url": "https://data.opencity.in/dataset/c2a2de1e-a017-4fb9-9e46-de6fbfbb393b/resource/514eadc2-7fa8-4749-87e5-ebe486487f09/download/b34111da-5b73-45e9-82d0-78da9d153b1c.kml",
+    "file_path": "raw\\best\\mumbai_best_bus_stops_and_depots.kml",
+    "file_size_bytes": 5730444,
+    "md5_checksum": "4e3c6e59a0b38e9c2885c2cde575a496",
+    "download_time_sec": 1.7,
+    "status": "SUCCESS",
+    "timestamp": "2026-11-09T20:09:08Z"
+  },
+  {
+    "dataset_name": "Suburban Stations",
+    "url": "https://data.opencity.in/dataset/50851056-1954-459f-a747-09366dcd416d/resource/142fbd25-9ceb-41b2-900d-72479cdc179e/download/5baa7e83-2855-4d17-86a9-9954b044ec08.kml",
+    "file_path": "raw\\railway\\mumbai_suburban_stations_2025.kml",
+    "file_size_bytes": 55061,
+    "md5_checksum": "49e965640934996463a584e0d9ad6623",
+    "download_time_sec": 0.27,
+    "status": "SUCCESS",
+    "timestamp": "2026-11-09T20:09:10Z"
+  },
+  {
+    "dataset_name": "Suburban Lines",
+    "url": "https://data.opencity.in/dataset/50851056-1954-459f-a747-09366dcd416d/resource/21a0809e-b279-42af-9bac-6ee73ec4e711/download/46f53a20-aebb-4096-bf33-c6d9d87afaca.kml",
+    "file_path": "raw\\railway\\mumbai_suburban_lines_2025.kml",
+    "file_size_bytes": 185829,
+    "md5_checksum": "8138d299c65b094dece1e59e47117e7e",
+    "download_time_sec": 0.3,
+    "status": "SUCCESS",
+    "timestamp": "2026-11-09T20:09:10Z"
+  },
+  {
+    "dataset_name": "Mumbai GTFS Repo",
+    "url": "https://github.com/croyla/mumbai-gtfs/archive/refs/heads/master.zip",
+    "file_path": "raw\\gtfs\\mumbai_gtfs_repo.zip",
+    "file_size_bytes": 18187129,
+    "md5_checksum": "9081bf620e087f70e9c7970dc96868e5",
+    "download_time_sec": 7.57,
+    "status": "SUCCESS",
+    "timestamp": "2026-11-09T20:09:18Z"
+  },
+  {
+    "dataset_name": "WorldPop India Raster",
+    "url": "https://data.worldpop.org/GIS/Population/Global_2000_2020_1km/2020/IND/ind_ppp_2020_1km_Aggregated.tif",
+    "file_path": "raw\\population\\ind_ppp_2020_1km.tif",
+    "file_size_bytes": 19086801,
+    "md5_checksum": "aa1713926394d362c13b9efe7b51f13f",
+    "download_time_sec": 19.94,
+    "status": "SUCCESS",
+    "timestamp": "2026-11-09T20:10:16Z"
+  },
+  {
+    "dataset_name": "Mumbai Census Data",
+    "url": "https://data.opencity.in/dataset/1a81291d-369d-43e6-97b1-e62680434437/resource/fcfeacdc-aa80-4028-a468-f0267fa05d23/download/95e22d97-7f59-4214-b244-2abbf52e6027.csv",
+    "file_path": "raw\\supplementary\\mumbai_ward_census_2011.csv",
+    "file_size_bytes": 15547,
+    "md5_checksum": "428d681f214b3c0a48cc598083f9a8f1",
+    "download_time_sec": 0.17,
+    "status": "SUCCESS",
+    "timestamp": "2026-11-09T20:14:20Z"
+  }
+]

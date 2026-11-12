@@ -1,0 +1,67 @@
+{
+  "bmc_ward_boundaries": {
+    "dataset_name": "BMC_Ward_Boundaries",
+    "initial_records": 24,
+    "valid_records_in_study_area": 24,
+    "outside_boundary_records": 0,
+    "invalid_geometry_count": 0,
+    "duplicate_count": 0,
+    "missing_name_count": 0,
+    "crs": "EPSG:4326",
+    "status": "VALIDATED"
+  },
+  "best_bus_stops": {
+    "dataset_name": "BEST_Bus_Stops",
+    "initial_records": 6243,
+    "valid_records_in_study_area": 5976,
+    "outside_boundary_records": 267,
+    "invalid_geometry_count": 0,
+    "duplicate_count": 0,
+    "missing_name_count": 0,
+    "crs": "EPSG:4326",
+    "status": "VALIDATED"
+  },
+  "suburban_railway_stations": {
+    "dataset_name": "Suburban_Railway_Stations",
+    "initial_records": 106,
+    "valid_records_in_study_area": 56,
+    "outside_boundary_records": 50,
+    "invalid_geometry_count": 0,
+    "duplicate_count": 0,
+    "missing_name_count": 0,
+    "crs": "EPSG:4326",
+    "status": "VALIDATED"
+  },
+  "mumbai_gtfs": {
+    "dataset_name": "mumbai_gtfs",
+    "metrics": {
+      "stops_count": 7506,
+      "stops_missing_coordinates": 0,
+      "stops_duplicate_ids": 0,
+      "routes_count": 935,
+      "routes_duplicate_ids": 0,
+      "trips_count": 99080,
+      "trips_orphan_route_refs": 0,
+      "stop_times_count": 2655026,
+      "stop_times_orphan_stop_refs": 0,
+      "stop_times_orphan_trip_refs": 0,
+      "calendar_services": 1,
+      "service_start_min": "20260819",
+      "service_end_max": "20270215"
+    },
+    "issues": [],
+    "is_valid": true,
+    "status": "VALIDATED"
+  },
+  "gtfs_bus_stops": {
+    "dataset_name": "GTFS_Bus_Stops",
+    "initial_records": 7506,
+    "valid_records_in_study_area": 5883,
+    "outside_boundary_records": 1623,
+    "invalid_geometry_count": 0,
+    "duplicate_count": 0,
+    "missing_name_count": 0,
+    "crs": "EPSG:4326",
+    "status": "VALIDATED"
+  }
+}

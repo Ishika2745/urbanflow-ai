@@ -1,0 +1,11 @@
+Algorithm,Seed,Fitness,Coverage %,Additional Benefiting Pop,Avg Walk Dist (m),DTII Reduction %,Gini Improvement %,Runtime (s)
+Genetic Algorithm,42,5.298,100.0,0,188.7,1.2,16.47,1.1398
+Discrete PSO,42,5.298,100.0,0,188.7,1.2,16.47,0.5619
+Genetic Algorithm,101,5.298,100.0,0,188.7,1.2,16.47,0.7948
+Discrete PSO,101,5.298,100.0,0,188.7,1.2,16.47,0.5216
+Genetic Algorithm,777,5.298,100.0,0,188.7,1.2,16.47,0.6949
+Discrete PSO,777,5.298,100.0,0,188.7,1.2,16.47,0.6639
+Genetic Algorithm,2024,5.298,100.0,0,188.7,1.2,16.47,0.9645
+Discrete PSO,2024,5.298,100.0,0,188.7,1.2,16.47,0.6138
+Genetic Algorithm,9999,5.298,100.0,0,188.7,1.2,16.47,0.9173
+Discrete PSO,9999,5.298,100.0,0,188.7,1.2,16.47,0.638

@@ -1,0 +1,2 @@
+Scenario ID,Scenario Label,Algorithm,Stops Added (K),Coverage %,Newly Served Pop,Total Benefiting Pop,Avg Walk Dist (m),DTII Reduction %,Deserts Resolved,Gini Improvement %,CapEx (₹ Cr),Payback (Yrs)
+SCEN_8008A8,Equity-Optimized Feeder Expansion,Genetic Algorithm (Equity-GA),15,100.0% (+0.0%),0,"7,351,587",182m (-46m),0.10%,0,24.15%,₹2.45 Cr,0.0 yrs

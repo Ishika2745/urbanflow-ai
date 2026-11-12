@@ -1,0 +1,61 @@
+# Python byte code and virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Environment files
+.env
+.env.local
+
+# Database
+*.sqlite3
+*.db
+*.sqlite
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Large / Raw Data (Keep raw data local, keep sample or generated data versioned)
+data/raw/
+data/raw/*.zip
+data/raw/*.tar.gz
+data/raw/*.osm
+data/raw/*.pbf
+*.log
+
+# Artifacts
+artifacts/temp_*
+

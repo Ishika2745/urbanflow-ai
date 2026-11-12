@@ -1,0 +1,249 @@
+{
+  "report_name": "UrbanFlow AI - Data Quality & Spatial Feature Engineering Audit",
+  "generated_at": "2026-11-10T04:25:16.238250",
+  "target_geography": "Greater Mumbai (MCGM), Maharashtra, India",
+  "crs_framework": {
+    "projected_metric_crs": "EPSG:32643",
+    "projected_metric_name": "WGS 84 / UTM zone 43N",
+    "geographic_display_crs": "EPSG:4326",
+    "geographic_display_name": "WGS 84"
+  },
+  "datasets": {
+    "mumbai_grid_500m": {
+      "total_records": 2058,
+      "crs": "EPSG:4326",
+      "spatial_bounds": {
+        "min_lon": 72.77633,
+        "min_lat": 18.89396,
+        "max_lon": 72.98064,
+        "max_lat": 19.27018
+      },
+      "geometry_integrity": {
+        "invalid_geometries": 0,
+        "empty_geometries": 0,
+        "3d_z_geometries": 0,
+        "geometry_types": [
+          "Polygon",
+          "MultiPolygon"
+        ]
+      },
+      "missing_attributes": {},
+      "total_population": 13239997.2,
+      "total_area_sq_km": 474.3791
+    },
+    "mumbai_grid_1km": {
+      "total_records": 547,
+      "crs": "EPSG:4326",
+      "spatial_bounds": {
+        "min_lon": 72.77633,
+        "min_lat": 18.89396,
+        "max_lon": 72.98064,
+        "max_lat": 19.27018
+      },
+      "geometry_integrity": {
+        "invalid_geometries": 0,
+        "empty_geometries": 0,
+        "3d_z_geometries": 0,
+        "geometry_types": [
+          "Polygon",
+          "MultiPolygon"
+        ]
+      },
+      "missing_attributes": {},
+      "total_population": 13239774.299999999,
+      "total_area_sq_km": 474.34169999999995
+    },
+    "mumbai_ward_features": {
+      "total_records": 24,
+      "crs": "EPSG:32643",
+      "spatial_bounds": {
+        "min_lon": 266229.29993,
+        "min_lat": 2090522.46272,
+        "max_lon": 287642.17909,
+        "max_lat": 2132116.7997
+      },
+      "geometry_integrity": {
+        "invalid_geometries": 0,
+        "empty_geometries": 0,
+        "3d_z_geometries": 0,
+        "geometry_types": [
+          "Polygon",
+          "MultiPolygon"
+        ]
+      },
+      "missing_attributes": {},
+      "total_population": 13240304.7,
+      "total_area_sq_km": 474.4042
+    },
+    "best_bus_stops": {
+      "total_records": 5753,
+      "crs": "EPSG:4326",
+      "spatial_bounds": {
+        "min_lon": 72.78615,
+        "min_lat": 18.89541,
+        "max_lon": 72.99797,
+        "max_lat": 19.31229
+      },
+      "geometry_integrity": {
+        "invalid_geometries": 0,
+        "empty_geometries": 0,
+        "3d_z_geometries": 0,
+        "geometry_types": [
+          "Point"
+        ]
+      },
+      "missing_attributes": {}
+    },
+    "railway_stations": {
+      "total_records": 55,
+      "crs": "EPSG:4326",
+      "spatial_bounds": {
+        "min_lon": 72.81618,
+        "min_lat": 18.9353,
+        "max_lon": 72.97593,
+        "max_lat": 19.31144
+      },
+      "geometry_integrity": {
+        "invalid_geometries": 0,
+        "empty_geometries": 0,
+        "3d_z_geometries": 0,
+        "geometry_types": [
+          "Point"
+        ]
+      },
+      "missing_attributes": {}
+    },
+    "metro_stations": {
+      "total_records": 50,
+      "crs": "EPSG:4326",
+      "spatial_bounds": {
+        "min_lon": 72.8174,
+        "min_lat": 19.064,
+        "max_lon": 72.908,
+        "max_lat": 19.2592
+      },
+      "geometry_integrity": {
+        "invalid_geometries": 0,
+        "empty_geometries": 0,
+        "3d_z_geometries": 0,
+        "geometry_types": [
+          "Point"
+        ]
+      },
+      "missing_attributes": {}
+    },
+    "gtfs_stops": {
+      "total_records": 5883,
+      "crs": "EPSG:4326",
+      "spatial_bounds": {
+        "min_lon": 72.78615,
+        "min_lat": 18.90007,
+        "max_lon": 72.99796,
+        "max_lat": 19.31856
+      },
+      "geometry_integrity": {
+        "invalid_geometries": 0,
+        "empty_geometries": 0,
+        "3d_z_geometries": 0,
+        "geometry_types": [
+          "Point"
+        ]
+      },
+      "missing_attributes": {}
+    },
+    "urban_facilities": {
+      "total_records": 48,
+      "crs": "EPSG:4326",
+      "spatial_bounds": {
+        "min_lon": 72.817,
+        "min_lat": 18.922,
+        "max_lon": 72.915,
+        "max_lat": 19.186
+      },
+      "geometry_integrity": {
+        "invalid_geometries": 0,
+        "empty_geometries": 0,
+        "3d_z_geometries": 0,
+        "geometry_types": [
+          "Point"
+        ]
+      },
+      "missing_attributes": {}
+    },
+    "road_network": {
+      "total_records": 134,
+      "crs": "EPSG:4326",
+      "spatial_bounds": {
+        "min_lon": 72.82,
+        "min_lat": 18.92,
+        "max_lon": 72.94,
+        "max_lat": 19.26
+      },
+      "geometry_integrity": {
+        "invalid_geometries": 0,
+        "empty_geometries": 0,
+        "3d_z_geometries": 0,
+        "geometry_types": [
+          "LineString"
+        ]
+      },
+      "missing_attributes": {}
+    }
+  },
+  "cleaning_audit": {
+    "boundaries": {
+      "wards_count": 24,
+      "total_area_sq_km": 474.4042,
+      "invalid_geometries_repaired": 0
+    },
+    "best_bus_stops": {
+      "initial_records": 5976,
+      "retained_records": 5753,
+      "duplicates_removed": 223,
+      "out_of_bounds_removed": 0
+    },
+    "railway_stations": {
+      "initial_records": 56,
+      "retained_records": 55,
+      "duplicates_removed": 1
+    },
+    "metro_stations": {
+      "retained_records": 50,
+      "lines_covered": [
+        "Line 1",
+        "Line 2A",
+        "Line 7",
+        "Line 3 Phase 1"
+      ]
+    },
+    "gtfs_feed": {
+      "total_routes": 935,
+      "total_trips": 99080,
+      "orphan_trips": 0,
+      "total_stop_time_records": 2655026,
+      "orphan_stop_times": 0,
+      "stops_with_service": 5883,
+      "median_trips_per_stop": 217.0,
+      "median_headway_mins": 4.4
+    },
+    "urban_facilities": {
+      "total_facilities": 48,
+      "categories": {
+        "hospital": 17,
+        "school": 13,
+        "market": 9,
+        "commercial": 9
+      }
+    },
+    "road_infrastructure": {
+      "road_segments": 134,
+      "total_road_length_km": 578.5279999999999,
+      "intersections_count": 40
+    }
+  },
+  "validation_warnings": [
+    "50 suburban railway stations extending into wider MMR (Thane, Kalyan, Dombivli, Palghar) are preserved in data/interim/validated/ for regional connectivity modeling.",
+    "WorldPop population raster represents reference year 2020 (official latest unconstrained release); scaled conservatively without double-counting across spatial boundaries.",
+    "GTFS scheduled bus frequencies represent published timetables; live operational punctuality will be integrated when vehicle GPS streams are active."
+  ]
+}
