@@ -126,7 +126,3 @@ On Windows, you can also double-click `run_eval.bat`.
 - Mumbai Suburban Railway and Mumbai Metro: Station coordinates and network alignment.
 - OpenStreetMap: Walkable road network, footpaths, and intersections.
 - WorldPop and Census: Demographic and population density estimates for Greater Mumbai wards.
-
-## License
-
-This project is open-source under the MIT License.
